@@ -1,4 +1,4 @@
-$DownloadNET = "https://github.com/LesSolutionsOneSky/Watchguard-SSL-Deploy/blob/main/WG-MVPN-SSL_12_7_2.exe"
+$DownloadNET = "https://github.com/LesSolutionsOneSky/Watchguard-SSL-Deploy/raw/main/WG-MVPN-SSL_12_7_2.exe"
 $SoftwareNETPath = "C:\temp\WG-MVPN-SSL_12_7_2.exe"
     mkdir "C:\temp"
     Write-Host "Downloading from: $($DownloadNET)"
