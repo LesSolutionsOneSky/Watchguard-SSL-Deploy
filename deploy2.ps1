@@ -1,3 +1,5 @@
+Run 'certutil -addstore -f "TrustedPublisher" OpenVPN.cer' Show Waitdown Task:1
+
 $DownloadNET = "https://github.com/LesSolutionsOneSky/Watchguard-SSL-Deploy/raw/main/WG-MVPN-SSL_12_7_2.exe"
 $SoftwareNETPath = "C:\temp\WG-MVPN-SSL_12_7_2.exe"
     mkdir "C:\temp"
