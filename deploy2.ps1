@@ -1,6 +1,6 @@
 taskkill /IM "wgsslvpnc.exe" /F
 
-"C:\Program Files (x86)\WatchGuard\WatchGuard Mobile VPN with SSL\unins000.exe" /VERYSILENT /NORESTART
+Start-Process -FilePath "C:\Program Files (x86)\WatchGuard\WatchGuard Mobile VPN with SSL\unins000.exe" -ArgumentList "/VERYSILENT /NORESTART"
 
 certutil -addstore -f TrustedPublisher trustedpublisher1.cer
 
